@@ -1,0 +1,13 @@
+[package]
+name = "blog"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.9.0"
+async-graphql = "7.0.15"
+async-graphql-actix-web = "7.0.15"
+dotenv = "0.15.0"
+serde = "1.0.218"
+sqlx = {version="0.8.3",features=["postgres","runtime-tokio"]}
+tokio = {version="1.43.0",features=["full"]}
